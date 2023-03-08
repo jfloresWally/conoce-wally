@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="facturación electrónica y punto de venta">
+    <meta name="keywords" content="punto de venta, facturación electrónica, Perú">
+    <title>Conoce Wally</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="./css/output.css" />
+    <link rel="stylesheet" href="./css/custom-styles.css" />
+  </head>
+  <body>
+    <header class="header flex justify-center bg-white p-4">
+        <a href="#" area-label="logo del header">
+          <img src="./assets/img-logo-header.svg" alt="logo del header" />
+        </a>
+    </header>
+    <section
+      class="hero px-4 py-12 rounded-b-lg mb-12 md:mb-24 md:px-16 md:py-20 lg:pb-36 lg:flex lg:justify-center lg:mb-0 xl:pt-30"
+    >
+      <div
+        class="wrap-hero md:flex md:flex-col md:items-center lg:flex-row lg:items-center lg:justify-center"
+      >
+        <div class="lg:mr-8">
+          <h1
+            class="text-white text-2xl font-bold mb-4 md:mb-6 md:text-4xl md:text-center lg:text-left xl:text-5xl"
+          >
+            Conoce los <em class="c-yellow-custom">beneficios</em> que brinda
+            Wally a tu negocio.
+          </h1>
+          <p
+            class="text-base text-white mb-4 md:text-xl md:text-center md:mb-8 lg:text-left lg:mb-0 xl:text-2xl"
+          >
+            Wally es un sistema que te ayudará a
+            <strong class="c-yellow-custom">agilizar tus ventas</strong>,
+            <em>facturar de forma electrónica</em>, administrar tu inventario y
+            mucho más.
+          </p>
+        </div>
+        <img
+          class="img-hero"
+          src="./assets/img-hero-new.webp"
+          alt="imagen del hero"
+        />
+      </div>
+    </section>
+
+    <main class="main-content mx-4 md:mx-8">
+      <section class="section mb-12 md:mb-24 lg:-mt-16 xl:flex xl:justify-center">
+        <h2 class="c-black-1 mb-4 text-2xl font-bold md:text-4xl md:mb-6 lg:hidden">Wally te ofrece</h2>
+        <div class="wrap-cards overflow-x-scroll max-w-min xl:justify-center xl:overflow-visible">
+          <article class="card-h-scroll bg-white rounded-lg">
+            <img
+              src="./assets/img-pos.webp"
+              alt="imagen acerca del punto de venta"
+            />
+            <div class="wrap-content-card p-3 lg:p-6">
+              <h3 class="c-black-1 text-base font-bold mb-3 lg:text-xl">Punto de venta</h3>
+              <p class="c-black-2 text-sm mb-3 lg:text-base">
+                Genera la <em>venta de tus productos</em> nunca fue tan fácil vende desde
+                la web, <strong>tablet o desde tu celular.</strong>
+              </p>
+              <a href="#pos" class="bt-secondary" id="bt-pos">
+                más información
+              </a>
+            </div>
+          </article>
+          <article class="card-h-scroll bg-white rounded-lg">
+            <img
+              src="./assets/img-facturacion.webp"
+              alt="imagen acerca del punto de venta"
+            />
+            <div class="wrap-content-card p-3 lg:p-6">
+              <h3 class="c-black-1 text-base font-bold mb-3 lg:text-xl">Facturación electrónica</h3>
+              <p class="c-black-2 text-sm mb-3 lg:text-base">
+                Emite <em>facturas, boletas, notas de crédito</em> y comprueba el estado
+                de tus comprobantes al momento.
+              </p>
+              <a href="#facturacion" class="bt-secondary">
+                más información
+              </a>
+            </div>
+          </article>
+          <article class="card-h-scroll bg-white rounded-lg">
+            <img
+              src="./assets/img-inventario.webp"
+              alt="imagen acerca del punto de venta"
+            />
+            <div class="wrap-content-card p-3 lg:p-6">
+              <h3 class="c-black-1 text-base font-bold mb-3 lg:text-xl">
+                Control de inventario
+              </h3>
+              <p class="c-black-2 text-sm mb-3 lg:text-base">
+                <strong>Administra de forma eficiente tu inventario</strong> con alertas de stock
+                (Válido a partir del plan crece)
+              </p>
+              <a href="#inventario" class="bt-secondary">
+                más información
+              </a>
+            </div>
+          </article>
+          <article class="card-h-scroll bg-white rounded-lg">
+            <img
+              src="./assets/img-reportes.webp"
+              alt="imagen acerca del punto de venta"
+            />
+            <div class="wrap-content-card p-3 lg:p-6"">
+              <h3 class="c-black-1 text-base font-bold mb-3 lg:text-xl">Reportes</h3>
+              <p class="c-black-2 text-sm mb-3 lg:text-base">
+                Los <strong>reportes e indicadores que necesitas</strong> para tomar las mejores
+                decisiones para tu negocio.
+              </p>
+              <a href="#reportes" class="bt-secondary">
+                más información
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section mb-12 md:mb-24">
+        <h2 class="c-black-1 mb-4 text-2xl font-bold md:text-4xl md:mb-6 lg:text-center">¿Cuánto cuesta Wally?</h2>
+        <div class="wrap-cards-price md:flex md:items-start md:gap-6 lg:justify-center">
+          <article class="card-price p-4 bg-white rounded-lg mb-6 md:grow lg:p-6 lg:max-w-md xl:p-8">
+            <header class="header-card-price mb-4">
+              <div class="tag-custom mb-1">1 mes gratis</div>
+              <h4 class="c-black-1 text-xl font-bold mb-1">Plan facturación</h4>
+              <p class="c-black-1 text-xl">S/. 49.00 <span>+ IGV</span></p>
+            </header>
+            <a
+              href="https://soluciones.miwally.com/empieza-ahora"
+              target="_blank"
+              class="bt-primary bt-fill"
+              >Prueba 1 mes gratis</a
+            >
+            <ul class="list-card-price mt-4">
+              <li class="li-card-price flex mb-2">
+                <img src="./assets/icon-check.svg" alt="icon check" class="mr-2">
+                <p class="c-black-1 text-item-card-icons">
+                  Factura S/30,000 ventas al mes
+                </p>
+              </li>
+              <li class="li-card-price flex mb-2">
+                <img src="./assets/icon-check.svg" alt="icon check" class="mr-2">
+                <p class="c-black-1 text-item-card-icons">Punto de venta</p>
+              </li>
+              <li class="li-card-price flex mb-2">
+                <img src="./assets/icon-check.svg" alt="icon check" class="mr-2">
+                <p class="c-black-1 text-item-card-icons">Reportería simple</p>
+              </li>
+              <li class="li-card-price flex mb-2">
+                <img src="./assets/icon-check.svg" alt="icon check" class="mr-2">
+                <p class="c-black-1 text-item-card-icons">Hasta 2 usuarios</p>
+              </li>
+              <li class="li-card-price flex mb-2 text-red-500">
+                <img src="./assets/icon-close-red.svg" alt="icon check" class="mr-2">
+                <p class="c-black-1 text-item-card-icons">No incluye almacén</p>
+              </li>
+              <li class="li-card-price flex mb-2">
+                <img src="./assets/icon-check.svg" alt="icon check" class="mr-2">
+                <p class="c-black-1 text-item-card-icons">Capacitación grupal remota</p>
+              </li>
+              <li class="li-card-price flex mb-2">
+                <img src="./assets/icon-check.svg" alt="icon check" class="mr-2">
+                <p class="c-black-1 text-item-card-icons">Soporte por chat o correo</p>
+              </li>
+            </ul>
+          </article>
+
+          <article class="card-price p-4 bg-white rounded-lg md:grow lg:p-6 lg:max-w-md xl:p-8">
+            <header class="header-card-price mb-4">
+              <div class="tag-custom mb-1">1 mes gratis</div>
+              <h4 class="c-black-1 text-xl font-bold mb-1">Plan Crece</h4>
+              <p class="c-black-1 text-xl">S/. 99.00 <span>+ IGV</span></p>
+            </header>
+            <a
+              href="https://soluciones.miwally.com/empieza-ahora"
+              target="_blank"
+              class="bt-primary bt-fill"
+              >Prueba 1 mes gratis</a
+            >
+            <ul class="list-card-price mt-4">
+              <li class="li-card-price flex mb-2">
+                <img src="./assets/icon-check.svg" alt="icon check" class="mr-2">
+                <p class="c-black-1 text-item-card-icons">Factura S/60,000 ventas al mes</p>
+              </li>
+              <li class="li-card-price flex mb-2">
+                <img src="./assets/icon-check.svg" alt="icon check" class="mr-2">
+                <p class="c-black-1 text-item-card-icons">Punto de venta</p>
+              </li>
+              <li class="li-card-price flex mb-2">
+                <img src="./assets/icon-check.svg" alt="icon check" class="mr-2">
+                <p class="c-black-1 text-item-card-icons">Reportería avanzada</p>
+              </li>
+              <li class="li-card-price flex mb-2">
+                <img src="./assets/icon-check.svg" alt="icon check" class="mr-2">
+                <p class="c-black-1 text-item-card-icons">Hasta 4 usuarios</p>
+              </li>
+              <li class="li-card-price flex mb-2">
+                <img src="./assets/icon-check.svg" alt="icon check" class="mr-2">
+                <p class="c-black-1 text-item-card-icons">1 almacén</p>
+              </li>
+              <li class="li-card-price flex mb-2">
+                <img src="./assets/icon-check.svg" alt="icon check" class="mr-2">
+                <p class="c-black-1 text-item-card-icons">Capacitación grupal remota</p>
+              </li>
+              <li class="li-card-price flex mb-2">
+                <img src="./assets/icon-check.svg" alt="icon check" class="mr-2">
+                <p class="c-black-1 text-item-card-icons">
+                  Soporte por chat, correo y teléfono
+                </p>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="mb-12 flex flex-col items-center justify-center">
+        <article class="article-feature mb-12 md:mb-24 xl:flex xl:flex-row xl:max-w-screen-xl xl:gap-24 xl:items-center xl:justify-between" id="pos">
+          <img
+            src="./assets/img-section-pos.webp"
+            alt="imagen del punto de venta"
+            class="img-section xl:order-1"
+          />
+          <div class="content-feature">
+            <h4 class="c-black-1 text-xl font-bold mt-6 mb-2 md:text-4xl">Punto de venta</h4>
+            <p class="c-black-2 text-base mb-6 md:text-xl">
+              Wally cuenta con un punto de venta muy completo para todo tipo de
+              negocio.
+            </p>
+            <div class="flex items-start mb-6">
+              <img
+                class="mr-2"
+                src="./assets/icon-phone.svg"
+                alt="icono celular"
+              />
+              <div>
+                <h5 class="c-black-1 text-base font-bold mb-2 md:text-xl">Vende desde tu celular</h5>
+                <p class="c-black-2 text-base md:text-xl">
+                  Podrás descargar nuestra app y usar nuestro punto de venta
+                  desde tu celular.
+                </p>
+              </div>
+            </div>
+            <div class="flex items-start mb-6">
+              <img
+                class="mr-2"
+                src="./assets/icon-cashier.svg"
+                alt="icono celular"
+              />
+              <div>
+                <h5 class="c-black-1 text-base font-bold mb-2 md:text-xl">Apertura y cierre de caja</h5>
+                <p class="c-black-2 text-base md:text-xl">Olvídate de cuadrar caja, con Wally es super fácil.</p>
+              </div>
+            </div>
+            <div class="flex items-start mb-6">
+              <img
+                class="mr-2"
+                src="./assets/icon-doc.svg"
+                alt="icono celular"
+              />
+              <div>
+                <h5 class="c-black-1 text-base font-bold mb-2 md:text-xl">Cuentas guardadas</h5>
+                <p class="c-black-2 text-base md:text-xl">Guarda las cuentas de tus clientes y sigue generando ventas.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="article-feature mb-12 md:mb-24 xl:flex xl:flex-row xl:max-w-screen-xl xl:gap-24 xl:items-center xl:justify-between" id="facturacion">
+          <img
+            src="./assets/img-section-facturacion.webp"
+            alt="imagen del punto de venta"
+            class="img-section"
+          />
+          <div class="content-feature">
+            <h4 class="c-black-1 text-xl font-bold mt-6 mb-2 md:text-4xl">Facturación electrónica</h4>
+            <p class="c-black-2 text-base mb-6 md:text-xl">Wally cuenta con un facturador electrónico integrado con SUNAT.</p>
+            <div class="flex items-start mb-6">
+              <img
+                class="mr-2"
+                src="./assets/icon-doc-2.svg"
+                alt="icono celular"
+              />
+              <div>
+                <h5 class="c-black-1 text-base font-bold mb-2 md:text-xl">Emite documentos</h5>
+                <p class="c-black-2 text-base md:text-xl">Podrás emitir Facturas, Boletas, Notas de venta y Notas de crédito.</p>
+              </div>
+            </div>
+            <div class="flex items-start mb-6">
+              <img
+                class="mr-2"
+                src="./assets/icon-sunat.svg"
+                alt="icono celular"
+              />
+              <div>
+                <h5 class="c-black-1 text-base font-bold mb-2 md:text-xl">Integración con SUNAT</h5>
+                <p class="c-black-2 text-base md:text-xl">Comprueba en tiempo real si tus comprobantes han sido aceptados o rechazados por Sunat.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="article-feature mb-12 md:mb-24 xl:flex xl:flex-row xl:max-w-screen-xl xl:gap-24 xl:items-center" id="inventario">
+          <img
+            src="./assets/img-section-inventario.webp"
+            alt="imagen del inventario"
+            class="img-section xl:order-1"
+          />
+          <div class="content-feature">
+            <h4 class="c-black-1 text-xl font-bold mt-6 mb-2 md:text-4xl">Control de inventario</h4>
+            <p class="c-black-2 text-base mb-6 md:text-xl">En Wally contamos con un sistema completo para administrar de forma eficiente tu inventario (Válido a partir del plan crece)</p>
+            <div class="flex items-start mb-6">
+              <img
+                class="mr-2"
+                src="./assets/icon-box.svg"
+                alt="icono celular"
+              />
+              <div>
+                <h5 class="c-black-1 text-base font-bold mb-2 md:text-xl">Agregar y descontar stock</h5>
+                <p class="c-black-2 text-base md:text-xl">Podrás agregar y descontar stock desde tu inventario y restringir el acceso a esta funcionalidad a tus empleados.</p>
+              </div>
+            </div>
+            <div class="flex items-start mb-6">
+              <img
+                class="mr-2"
+                src="./assets/icon-bell.svg"
+                alt="icono celular"
+              />
+              <div>
+                <h5 class="c-black-1 text-base font-bold mb-2 md:text-xl">Notificaciones de stock bajo y agotado</h5>
+                <p class="c-black-2 text-base md:text-xl">Recibe alertas cuando un artículo esté por terminarse o se encuentre agotado.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="article-feature mb-12 xl:flex xl:flex-row xl:max-w-screen-xl xl:gap-24 xl:items-center" id="reportes">
+          <img
+            src="./assets/img-section-reportes.webp"
+            alt="imagen del punto de venta"
+            class="img-section"
+          />
+          <div class="content-feature">
+            <h4 class="c-black-1 text-xl font-bold mt-6 mb-2 md:text-4xl">Reportes</h4>
+            <p class="c-black-2 text-base mb-6 md:text-xl">Los reportes e indicadores que necesitas para tomar las mejores decisiones para tu negocio.</p>
+            <div class="flex items-start mb-6">
+              <img
+                class="mr-2"
+                src="./assets/icon-grow.svg"
+                alt="icono celular"
+              />
+              <div>
+                <h5 class="c-black-1 text-base font-bold mb-2 md:text-xl">Ventas totales</h5>
+                <p class="c-black-2 text-base md:text-xl">Visualiza el estado de las ventas de tu negocio y toma la mejor decisión.</p>
+              </div>
+            </div>
+            <div class="flex items-start mb-6">
+              <img
+                class="mr-2"
+                src="./assets/icon-high.svg"
+                alt="icono celular"
+              />
+              <div>
+                <h5 class="c-black-1 text-base font-bold mb-2 md:text-xl">Productos más vendidos</h5>
+                <p class="c-black-2 text-base md:text-xl">Visualiza cuál es te top de tus productos más vendidos para tomar medidas que ayuden a tu negocio.</p>
+              </div>
+            </div>
+            <div class="flex items-start mb-6">
+              <img
+                class="mr-2"
+                src="./assets/icon-info.svg"
+                alt="icono celular"
+              />
+              <div>
+                <h5 class="c-black-1 text-base font-bold mb-2 md:text-xl">Reportes avanzados</h5>
+                <p class="c-black-2 text-base md:text-xl">
+                  Los reportes avanzados están disponibles en el plan crece
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </section>
+
+    </main>
+
+    <footer class="footer bg-white px-4 py-8 flex flex-col items-center">     
+      <div class="container-footer max-w-7xl lg:flex lg:gap-6">
+        <div class="wrap-footer lg:grow mb-6">
+          <img
+            src="./assets/img-logo-header.svg"
+            alt="logo footer"
+            class="mb-4"
+          />
+          <p class="text-sm mb-4">
+            Wally® Calle Juan Fanning 419, Miraflores Lima - Perú
+          </p>
+          <div class="wrap-social-link flex">
+            <a
+              href="https://web.facebook.com/wallypos/"
+              target="_blank"
+              area-label="logo-facebook"
+              class="mr-4"
+            >
+              <img src="./assets/icon-facebook.svg" alt="logo facebook" />
+            </a>
+            <a
+              href="https://www.instagram.com/wallypos/"
+              target="_blank"
+              area-label="logo-instagram"
+              class="mr-4"
+            >
+              <img src="./assets/icon-instagram.svg" alt="logo instagram" />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/wallypos/"
+              target="_blank"
+              area-label="logo-linkedin"
+              class="mr-4"
+            >
+              <img src="./assets/icon-linkedin.svg" alt="logo linkedin" />
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCk_mRPNG4GNhrvkYrwwdH0Q"
+              target="_blank"
+              area-label="logo-youtube"
+              class="mr-4"
+            >
+              <img src="./assets/icon-youtube.svg" alt="logo youtube" />
+            </a>
+          </div>
+        </div>
+  
+        <div class="wrap-footer lg:grow flex flex-col mb-6">
+          <h4 class="text-base font-bold mb-2">Soluciones</h4>
+          <a
+            href="https://soluciones.miwally.com/facturacion-electronica?__hstc=147199208.ac4dce81cc637f8e0b445824367b701e.1632160466574.1663079976232.1663082657368.163&__hssc=147199208.13.1663082657368&__hsfp=2966497426"
+            class="text-sm mb-2"
+            target="_blank"
+            >Facturación y gestión</a
+          >
+          <a
+            href="https://soluciones.miwally.com/punto-de-venta?__hstc=147199208.ac4dce81cc637f8e0b445824367b701e.1632160466574.1663079976232.1663082657368.163&__hssc=147199208.13.1663082657368&__hsfp=2966497426"
+            class="text-sm mb-2"
+            target="_blank"
+            >Punto de venta</a
+          >
+          <a
+            href="https://soluciones.miwally.com/punto-de-venta-restaurantes"
+            class="text-sm"
+            target="_blank"
+            >Software para restaurantes</a
+          >
+        </div>
+  
+        <div class="wrap-footer lg:grow flex flex-col mb-6">
+          <h4 class="text-base font-bold mb-2">Wally vs la competencia</h4>
+          <a
+            href="https://soluciones.miwally.com/wally-vs-keyfacil"
+            class="text-sm mb-2"
+            target="_blank"
+            >Wally vs keyfacil</a
+          >
+          <a
+            href="https://soluciones.miwally.com/wally-vs-teki"
+            class="text-sm mb-2"
+            target="_blank"
+            >Wally vs Teki</a
+          >
+          <a
+            href="https://soluciones.miwally.com/wally-vs-bsale"
+            class="text-sm mb-2"
+            target="_blank"
+            >Wally vs BSale</a
+          >
+          <a
+            href="https://soluciones.miwally.com/wally-vs-softrestaurant"
+            class="text-sm mb-2"
+            target="_blank"
+            >Wally vs Soft Restaurant</a
+          >
+          <a
+            href="https://soluciones.miwally.com/wally-vs-restaurant.pe"
+            class="text-sm mb-2"
+            target="_blank"
+            >Wally vs Restaurant.pe</a
+          >
+          <a
+            href="https://soluciones.miwally.com/wally-vs-arisale"
+            class="text-sm mb-2"
+            target="_blank"
+            >Wally vs Arisale</a
+          >
+          <a
+            href="https://soluciones.miwally.com/wally-vs-nubefact"
+            class="text-sm mb-2"
+            target="_blank"
+            >Wally vs Nubefact</a
+          >
+          <a
+            href="https://soluciones.miwally.com/wally-vs-susii"
+            class="text-sm"
+            target="_blank"
+            >Wally vs Susi</a
+          >
+        </div>
+        <div class="wrap-footer lg:grow flex flex-col mb-6">
+          <h4 class="text-base font-bold mb-2">Atención y soporte</h4>
+          <a
+            href="https://soluciones.miwally.com/precios"
+            class="text-sm mb-2"
+            target="_blank"
+            >Planes y precios</a
+          >
+          <a
+            href="https://soluciones.miwally.com/distribuidores"
+            class="text-sm mb-2"
+            target="_blank"
+            >Distribuidores</a
+          >
+          <a
+            href="https://intercom.help/wallypos/es/"
+            class="text-sm mb-2"
+            target="_blank"
+            >Centro de ayuda</a
+          >
+          <a
+            href="https://www.librodereclamacionesperu.com/formulario.php?id=38569337"
+            class="text-sm mb-2"
+            target="_blank"
+            >Libro de reclamaciones</a
+          >
+          <a
+            href="https://miwally.com/terminos-condiciones-generales/"
+            class="text-sm mb-2"
+            target="_blank"
+            >Términos y condiciones generales</a
+          >
+          <a
+            href="https://intercom.help/wallypos/es/articles/6891894-conoce-nuestros-canales-de-atencion"
+            class="text-sm"
+            target="_blank"
+            >Canales de atención</a
+          >
+        </div>
+        <div class="wrap-footer lg:grow flex flex-col mb-6">
+          <h4 class="text-base font-bold mb-2">Atención y soporte</h4>
+          <a href="https://blog.miwally.com/" class="text-sm mb-2" target="_blank"
+            >Blog</a
+          >
+          <a
+            href="https://www.youtube.com/watch?v=dN-I2qR4SS4&list=PLVXC3MWr_FG8RlHak-9Bcpt4okyjtCGwL"
+            class="text-sm"
+            target="_blank"
+            >Mira nuestros tutoriales</a
+          >
+        </div>
+      </div>
+      <div class="legal-footer flex flex-col items-center">
+        <p class="text-sm font-bold">Hecho con 💚 para los emprendedores</p>
+        <p><small class="text-sm">© 2023 Wally POS</small></p>
+      </div>
+    </footer>
+  </body>
+</html>
